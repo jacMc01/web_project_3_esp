@@ -1,0 +1,7 @@
+.header-container__quote {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    line-height: 1.15;
+    font-weight: bold;
+}

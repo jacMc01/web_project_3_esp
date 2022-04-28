@@ -1,0 +1,9 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--white-color);
+    margin: 0 148px;
+    width: 1017px;
+    height: 516px;
+}

@@ -1,0 +1,8 @@
+.header-container__paragraph {
+    width: 720px;
+    height: 72px;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--white-color);
+}

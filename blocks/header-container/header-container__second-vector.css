@@ -1,0 +1,7 @@
+.header-container__second-vector {
+    margin-top: 2px;
+    width: 11px;
+    height: 24px;
+    background-color: var(--blue-color);
+    border-radius: 0 0 0 2px;
+}

@@ -1,0 +1,10 @@
+.header-container__third-vector {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: 2px;
+    width: 19px;
+    height: 24px;
+    background-color: var(--blue-color);
+    border-radius: 0 0 2px 0;
+}
