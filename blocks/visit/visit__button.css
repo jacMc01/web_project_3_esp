@@ -1,0 +1,10 @@
+.visit__button {
+    padding: 13px 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 5px;
+}

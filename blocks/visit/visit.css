@@ -1,0 +1,13 @@
+.visit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/images/visit_image.png");
+    margin: 92px;
+    max-width: 1184px;
+    height: 740px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}

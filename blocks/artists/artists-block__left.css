@@ -1,0 +1,7 @@
+.artists-block__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 460px;
+    margin-right: 40px;
+}

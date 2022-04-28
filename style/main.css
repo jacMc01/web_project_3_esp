@@ -22,6 +22,38 @@
 @import url(../blocks/info/info__title.css);
 @import url(../blocks/info/info__quote.css);
 @import url(../blocks/info/info__description.css);
+
+/*  photos  */
+
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/photos__image.css);
+
+/*  artists  */
+
+@import url(../blocks/artists/artists.css);
+@import url(../blocks/artists/artists-block.css);
+@import url(../blocks/artists/artists-block__title.css);
+@import url(../blocks/artists/artists-block__image.css);
+@import url(../blocks/artists/artists-block__paragraph-quote.css);
+@import url(../blocks/artists/artists-block__paragraph-person.css);
+@import url(../blocks/artists/artists-block__paragraph-first.css);
+@import url(../blocks/artists/artists-block__paragraph-second.css);
+@import url(../blocks/artists/artists-block__paragraph-third.css);
+@import url(../blocks/artists/artists-block__left.css);
+@import url(../blocks/artists/artists-block__right.css);
+@import url(../blocks/artists/artists-blocks__button.css);
+
+/*  visit  */
+
+@import url(../blocks/visit/visit.css);
+@import url(../blocks/visit/visit__title.css);
+@import url(../blocks/visit/visit__description.css);
+@import url(../blocks/visit/visit__button.css);
+
+/*  footer  */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer__copyright.css);
 :root {
     --background-color: #2A2C2F;
     --white-color: #fff;

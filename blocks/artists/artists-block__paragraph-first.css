@@ -1,0 +1,7 @@
+.artists-block__paragraph-first {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 26.5px;
+    color: var(--white-color);
+    padding-top: 48px;
+}
