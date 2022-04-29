@@ -54,8 +54,3 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer__copyright.css);
-:root {
-    --background-color: #2A2C2F;
-    --white-color: #fff;
-    --blue-color: #0278FE;
-}

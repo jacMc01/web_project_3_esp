@@ -8,3 +8,9 @@
 html {
     background-color: var(--background-color);
 }
+
+:root {
+    --background-color: #2A2C2F;
+    --white-color: #fff;
+    --blue-color: #0278FE;
+}

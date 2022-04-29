@@ -1,9 +1,7 @@
 .header-container__title {
-    width: 793px;
-    height: 200px;
     margin-top: 91px;
     text-align: center;
-    font-size: 9.6rem;
+    font-size: 96px;
     line-height: 1;
     font-weight: bold;
     color: var(--white-color);
