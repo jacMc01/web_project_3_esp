@@ -5,3 +5,12 @@
     width: 460px;
     margin-right: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .artists-block__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 340px;
+    }
+}

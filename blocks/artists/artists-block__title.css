@@ -4,3 +4,9 @@
     font-weight: 900;
     color: var(--white-color);
 }
+
+@media screen and (max-width: 768px) {
+    .artists-block__title {
+        font-size: 4.2rem;
+    }
+}
