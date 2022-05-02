@@ -10,3 +10,13 @@
         height: 480px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .header-container__image {
+        padding-top: 40px;
+        width: 320px;
+        height: 200px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}

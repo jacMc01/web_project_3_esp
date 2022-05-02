@@ -7,3 +7,13 @@
     text-align: center;
     margin-bottom: 32px;
 }
+
+@media screen and (max-width: 320px) {
+    .visit__description {
+        font-size: 1.4rem;
+        line-height: 16px;
+        font-weight: normal;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}

@@ -9,3 +9,10 @@
         height: 264px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .photos__image {
+        width: 288px;
+        height: 216px;
+    }
+}

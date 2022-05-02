@@ -16,3 +16,13 @@
         margin: 0 24px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .photos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        margin: 0 16px;
+        gap: 12px;
+    }
+}

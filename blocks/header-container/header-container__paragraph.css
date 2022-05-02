@@ -7,3 +7,10 @@
     color: var(--white-color);
     margin: 0 auto;
 }
+
+@media screen and (max-width: 320px) {
+    .header-container__paragraph {
+        font-size: 1.6rem;
+        padding-top: 60px;
+    }
+}

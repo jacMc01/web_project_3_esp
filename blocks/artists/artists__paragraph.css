@@ -1,0 +1,30 @@
+.artists__paragraph p {
+    width: 484px;
+    margin-left: 40px;
+    margin-top: 48px;
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 29.34px;
+    color: var(--white-color);
+}
+
+@media screen and (max-width: 768px) {
+    .artists__paragraph p {
+        width: 352px;
+        margin-left: 28px;
+        margin-right: 24px;
+        font-size: 1.6rem;
+        font-weight: normal;
+        line-height: 26.08px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .artists__paragraph p {
+        width: 288px;
+        margin: 0 16px;
+        font-size: 1.6rem;
+        font-weight: normal;
+        line-height: 26.08px;
+    }
+}

@@ -3,3 +3,13 @@
     font-size: 5.4rem;
     font-weight: bold;
 }
+
+@media screen and (max-width: 320px) {
+    .info__title {
+        width: 288px;
+        margin-top: 44px;
+        font-size: 3.2rem;
+        font-weight: bold;
+        /* margin: 0 16px; */
+    }
+}
