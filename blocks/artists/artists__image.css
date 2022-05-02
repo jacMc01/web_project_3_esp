@@ -19,6 +19,17 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .artists__image {
+        margin-top: 30px;
+        width: 400px;
+    }
+    .artists__image img {
+        width: 400px;
+        height: 350px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .artists__image {
         margin-top: 30px;

@@ -33,6 +33,14 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .artists__quote {
+        margin-top: 30px;
+        width: 355px;
+        margin-left: 24px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .artists__quote {
         margin-top: 30px;

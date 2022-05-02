@@ -4,6 +4,16 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 400px) {
+    .info__title {
+        width: 355px;
+        margin-top: 44px;
+        font-size: 3.2rem;
+        font-weight: bold;
+        /* margin: 0 16px; */
+    }
+}
+
 @media screen and (max-width: 320px) {
     .info__title {
         width: 288px;

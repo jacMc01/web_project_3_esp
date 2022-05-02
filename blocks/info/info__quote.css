@@ -4,6 +4,16 @@
     font-size: 2.4rem;
 }
 
+@media screen and (max-width: 400px) {
+    .info__quote {
+        width: 355px;
+        margin-top: 9px;
+        font-size: 2.4rem;
+        font-weight: normal;
+        /* margin: 0 16px; */
+    }
+}
+
 @media screen and (max-width: 320px) {
     .info__quote {
         width: 288px;

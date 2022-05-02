@@ -4,6 +4,16 @@
     font-size: 1.6rem;
 }
 
+@media screen and (max-width: 400px) {
+    .info__description {
+        width: 355px;
+        font-size: 1.6rem;
+        font-weight: normal;
+        line-height: 1.26;
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .info__description {
         width: 288px;

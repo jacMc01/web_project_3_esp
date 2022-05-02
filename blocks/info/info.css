@@ -15,6 +15,14 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .info {
+        width: 400px;
+        /* padding-top: 44px; */
+        /* margin: 0 auto; */
+    }
+}
+
 @media screen and (max-width: 320px) {
     .info {
         width: 320px;

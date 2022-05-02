@@ -27,7 +27,17 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
+    .artists__button button {
+        width: 355px;
+        height: 48px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .artists__button button {
         width: 288px;
         height: 48px;

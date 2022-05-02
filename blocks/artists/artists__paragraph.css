@@ -19,6 +19,16 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .artists__paragraph p {
+        width: 355px;
+        margin: 0 16px;
+        font-size: 1.6rem;
+        font-weight: normal;
+        line-height: 26.08px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .artists__paragraph p {
         width: 288px;

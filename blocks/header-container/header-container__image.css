@@ -11,6 +11,16 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .header-container__image {
+        padding-top: 40px;
+        width: 400px;
+        height: 220px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}
+
 @media screen and (max-width: 320px) {
     .header-container__image {
         padding-top: 40px;
