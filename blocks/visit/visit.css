@@ -9,7 +9,7 @@
     height: 740px;
     background-size: cover;
     background-position: center;
-    transition: ease-in-out 1s;
+    transition: 1s;
     opacity: 1;
 }
 
