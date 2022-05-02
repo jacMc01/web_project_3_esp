@@ -9,7 +9,12 @@
     height: 740px;
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    transition: ease-in-out 1s;
+    opacity: 1;
+}
+
+.visit:hover {
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {

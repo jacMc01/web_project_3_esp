@@ -1,16 +1,21 @@
-        .visit__button {
-            padding: 13px 20px;
-            font-size: 1.8rem;
-            font-weight: 600;
-            line-height: 21.78px;
-            color: var(--white-color);
-            background-color: var(--blue-color);
-            border: none;
-            border-radius: 5px;
-        }
-        
-        @media screen and (max-width: 320px) {
-            .visit__button {
-                margin-bottom: 45px;
-            }
-        }
+.visit__button {
+    padding: 13px 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 5px;
+    transition: ease-out .5s;
+}
+
+.visit__button:hover {
+    background-color: #0063D2;
+}
+
+@media screen and (max-width: 320px) {
+    .visit__button {
+        margin-bottom: 45px;
+    }
+}
