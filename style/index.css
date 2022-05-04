@@ -30,12 +30,19 @@
 
 /*  artists  */
 
-@import url(../blocks/artists/artists.css);
+@import url(../blocks/artists/artists__block.css);
 @import url(../blocks/artists/artists__title.css);
-@import url(../blocks/artists/artists__quote.css);
+@import url(../blocks/artists/artists__grid-superior.css);
+@import url(../blocks/artists/artists__quote-1.css);
+@import url(../blocks/artists/artists__quote-2.css);
+@import url(../blocks/artists/artists__grid-inferior.css);
 @import url(../blocks/artists/artists__image.css);
-@import url(../blocks/artists/artists__paragraph.css);
+@import url(../blocks/artists/artists__paragraph-1.css);
+@import url(../blocks/artists/artists__paragraph-2.css);
 @import url(../blocks/artists/artists__button.css);
+@import url(../blocks/artists/artists__grid-right.css);
+@import url(../blocks/artists/artists__paragraph-3.css);
+@import url(../blocks/artists/artists__quote-3.css);
 
 /*  visit  */
 

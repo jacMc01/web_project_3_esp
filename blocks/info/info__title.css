@@ -1,25 +1,20 @@
 .info__title {
     margin-top: 92px;
-    font-size: 5.4rem;
+    font-size: 54px;
+    line-height: 58px;
     font-weight: bold;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
     .info__title {
-        width: 355px;
-        margin-top: 44px;
-        font-size: 3.2rem;
-        font-weight: bold;
-        /* margin: 0 16px; */
+        margin-top: 55px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .info__title {
-        width: 288px;
         margin-top: 44px;
-        font-size: 3.2rem;
-        font-weight: bold;
-        /* margin: 0 16px; */
+        font-size: 32px;
+        line-height: 35px;
     }
 }

@@ -1,0 +1,23 @@
+.artists__grid-inferior {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .artists__grid-inferior {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .artists__grid-inferior {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}

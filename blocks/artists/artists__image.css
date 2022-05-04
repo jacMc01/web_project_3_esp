@@ -1,41 +1,17 @@
 .artists__image {
-    margin-top: 48px;
-    max-width: 460px;
-}
-
-.artists__image img {
     width: 460px;
     height: 460px;
 }
 
 @media screen and (max-width: 768px) {
     .artists__image {
-        margin-top: 46px;
-        width: 340px;
-    }
-    .artists__image img {
         width: 340px;
         height: 340px;
     }
 }
 
-@media screen and (max-width: 400px) {
-    .artists__image {
-        margin-top: 30px;
-        width: 400px;
-    }
-    .artists__image img {
-        width: 400px;
-        height: 350px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .artists__image {
-        margin-top: 30px;
-        width: 320px;
-    }
-    .artists__image img {
         width: 320px;
         height: 320px;
     }

@@ -1,25 +1,14 @@
 .info__description {
     max-width: 720px;
     margin-top: 42px;
-    font-size: 1.6rem;
-}
-
-@media screen and (max-width: 400px) {
-    .info__description {
-        width: 355px;
-        font-size: 1.6rem;
-        font-weight: normal;
-        line-height: 1.26;
-        margin: 0;
-    }
+    font-size: 16px;
+    line-height: 26.08px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 320px) {
     .info__description {
-        width: 288px;
-        font-size: 1.6rem;
-        font-weight: normal;
-        line-height: 1.26;
+        font-size: 16px;
         margin: 0;
     }
 }

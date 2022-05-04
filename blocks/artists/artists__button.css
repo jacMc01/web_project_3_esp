@@ -1,48 +1,48 @@
 .artists__button {
-    /* margin: 0;
-    padding: 0; */
-    width: 355px;
-    height: 48px;
-    margin-top: 48px;
-}
-
-.artists__button button {
-    font-size: 1.8rem;
-    color: var(--white-color);
     padding: 13px 20px;
     background-color: var(--blue-color);
     border: none;
     border-radius: 5px;
+    color: var(--white-color);
+    margin-top: 48px;
     transition: .5s;
 }
 
-.artists__button button:hover {
+.artists__button:hover {
     background-color: #0063D2;
 }
 
-@media screen and (max-width: 768px) {
-    .artists__button {
-        width: 355px;
-        /* transform: translateY(-200px); */
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .artists__button button {
-        width: 355px;
-        height: 48px;
-        font-size: 1.4rem;
-        font-weight: 500;
-        margin: 0 24px;
-    }
-}
-
 @media screen and (max-width: 320px) {
-    .artists__button button {
+    .artists__button {
+        padding: 16px 22px;
+        position: absolute;
+        left: 16px;
         width: 288px;
-        height: 48px;
-        font-size: 1.4rem;
-        font-weight: 500;
-        margin: 0 16px;
+        bottom: -725px;
+        font-size: 14px;
+    }
+    .artists__grid-left {
+        position: relative;
+    }
+    .artists .artists__block:nth-child(3) .artists__button {
+        position: absolute;
+        left: 16px;
+        width: 288px;
+        bottom: -750px;
+        font-size: 14px;
+    }
+    .artists .artists__block:nth-child(4) .artists__button {
+        position: absolute;
+        left: 16px;
+        width: 288px;
+        bottom: -925px;
+        font-size: 14px;
+    }
+    .artists .artists__block:nth-child(5) .artists__button {
+        position: absolute;
+        left: 16px;
+        width: 288px;
+        bottom: -850px;
+        font-size: 14px;
     }
 }

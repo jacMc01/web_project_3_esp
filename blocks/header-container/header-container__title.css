@@ -1,22 +1,26 @@
 .header-container__title {
     text-align: center;
     font-size: 96px;
-    line-height: 1;
+    line-height: 100px;
     font-weight: bold;
     color: var(--white-color);
     padding-top: 91px;
+    margin: 0;
 }
 
-@media screen and (max-width: 400px) {
+
+/* @media screen and (max-width: 400px) {
     .header-container__title {
-        font-size: 4rem;
+        font-size: 40px;
         padding-top: 50px;
     }
-}
+} */
 
 @media screen and (max-width: 320px) {
     .header-container__title {
-        font-size: 4rem;
+        font-size: 40px;
+        line-height: 44px;
         padding-top: 50px;
+        margin: 0 16px;
     }
 }

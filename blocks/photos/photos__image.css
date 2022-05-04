@@ -10,13 +10,6 @@
     }
 }
 
-@media screen and (max-width: 400px) {
-    .photos__image {
-        width: 360px;
-        height: 270px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .photos__image {
         width: 288px;

@@ -2,16 +2,20 @@
     padding-top: 64px;
     width: 984px;
     height: 615px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 @media screen and (max-width: 768px) {
     .header-container__image {
         width: 768px;
         height: 480px;
+        padding-top: 69px;
     }
 }
 
-@media screen and (max-width: 400px) {
+
+/* @media screen and (max-width: 400px) {
     .header-container__image {
         padding-top: 40px;
         width: 400px;
@@ -19,14 +23,12 @@
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     }
-}
+} */
 
 @media screen and (max-width: 320px) {
     .header-container__image {
         padding-top: 40px;
         width: 320px;
         height: 200px;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
     }
 }
