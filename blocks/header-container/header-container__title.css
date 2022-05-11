@@ -16,9 +16,11 @@
     }
 } */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .header-container__title {
+        width: 80%;
         font-size: 40px;
+        font-weight: 900;
         line-height: 44px;
         padding-top: 50px;
         margin: 0 16px;

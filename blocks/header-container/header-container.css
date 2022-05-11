@@ -19,7 +19,7 @@
     }
 } */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .header-container {
         display: flex;
         flex-direction: column;

@@ -1,0 +1,58 @@
+.artists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .artists {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .artists {
+        width: 90%;
+    }
+}
+
+.artists__description {
+    grid-area: description;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: white;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .artists__description {
+        width: 352px;
+    }
+}
+
+.artists__button {
+    width: min(355px, 100%);
+    grid-area: button;
+    padding: 13px 20px;
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+    transition: .5s;
+}
+
+.artists__button:hover {
+    background-color: #0063D2;
+}
+
+.artists__paragraph {
+    grid-area: paragraphs;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: white;
+}

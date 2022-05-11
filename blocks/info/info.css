@@ -4,19 +4,20 @@
     align-items: flex-start;
     color: var(--white-color);
     margin: 0 auto;
-    max-width: 1017px;
+    /* max-width: 1017px; */
+    width: min(100%, 1017px);
 }
 
 @media screen and (max-width: 768px) {
     .info {
-        width: 720px;
+        width: 95%;
         margin: 0 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .info {
-        width: 288px;
+        width: 90%;
         /* padding-top: 44px; */
         /* margin: 0 auto; */
     }
