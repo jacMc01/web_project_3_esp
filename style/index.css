@@ -31,9 +31,12 @@
 /*  artists  */
 
 @import url(../blocks/artists/artists.css);
-@import url(../blocks/artists/artists__title.css);
 @import url(../blocks/artists/artists__block.css);
+@import url(../blocks/artists/artists__title.css);
 @import url(../blocks/artists/artists__image.css);
+@import url(../blocks/artists/artists__description.css);
+@import url(../blocks/artists/artists__button.css);
+@import url(../blocks/artists/artists__paragraph.css);
 
 /*  visit  */
 

@@ -14,13 +14,9 @@
     background-color: #0063D2;
 }
 
-@media screen and (max-width: 400px) {
-    .visit__button {
-        margin-bottom: 45px;
-    }
-}
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 420px) {
     .visit__button {
         margin-bottom: 45px;
     }

@@ -10,8 +10,8 @@
 
 @media screen and (max-width: 768px) {
     .info {
-        width: 95%;
-        margin: 0 24px;
+        /*width: 95%;*/
+        margin: 0 2.5%;
     }
 }
 

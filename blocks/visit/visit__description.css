@@ -8,17 +8,8 @@
     margin-bottom: 32px;
 }
 
-@media screen and (max-width: 400px) {
-    .visit__description {
-        font-size: 14px;
-        line-height: 16px;
-        font-weight: normal;
-        margin-top: 16px;
-        margin-bottom: 16px;
-    }
-}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .visit__description {
         font-size: 14px;
         line-height: 16px;
